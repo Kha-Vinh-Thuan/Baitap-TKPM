@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý Sinh Viên</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quản lý Sinh Viên</h1>
+
+    <!-- Thêm Sinh Viên -->
+    <h2>Thêm Sinh Viên</h2>
+    <form id="studentForm">
+      <input type="text" id="mssv" placeholder="Mã số sinh viên" required>
+      <input type="text" id="name" placeholder="Họ tên" required>
+      <input type="date" id="dob" placeholder="Ngày sinh" required>
+      <select id="gender" required>
+        <option value="">Giới tính</option>
+        <option value="Nam">Nam</option>
+        <option value="Nữ">Nữ</option>
+      </select>
+      <input type="text" id="faculty" placeholder="Khoa" required>
+      <input type="text" id="class" placeholder="Khóa" required>
+      <input type="text" id="program" placeholder="Chương trình" required>
+      <input type="text" id="address" placeholder="Địa chỉ" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="phone" placeholder="Số điện thoại" required>
+      <select id="status" required>
+        <option value="">Tình trạng</option>
+        <option value="Đang học">Đang học</option>
+        <option value="Đã tốt nghiệp">Đã tốt nghiệp</option>
+        <option value="Đã thôi học">Đã thôi học</option>
+        <option value="Tạm dừng học">Tạm dừng học</option>
+      </select>
+      <button type="submit">Thêm sinh viên</button>
+    </form>
+
+    <!-- Cập nhật Sinh Viên -->
+    <h2>Cập nhật Sinh Viên</h2>
+    <form id="updateForm">
+      <input type="text" id="updateMssv" placeholder="Mã số sinh viên" required>
+      <button type="button" id="fetchStudent">Tìm Sinh Viên</button>
+    </form>
+    <form id="updateStudentForm" style="display:none;">
+      <input type="text" id="updateName" placeholder="Họ tên" required>
+      <input type="date" id="updateDob" placeholder="Ngày sinh" required>
+      <select id="updateGender" required>
+        <option value="">Giới tính</option>
+        <option value="Nam">Nam</option>
+        <option value="Nữ">Nữ</option>
+      </select>
+      <input type="text" id="updateFaculty" placeholder="Khoa" required>
+      <input type="text" id="updateClass" placeholder="Khóa" required>
+      <input type="text" id="updateProgram" placeholder="Chương trình" required>
+      <input type="text" id="updateAddress" placeholder="Địa chỉ" required>
+      <input type="email" id="updateEmail" placeholder="Email" required>
+      <input type="text" id="updatePhone" placeholder="Số điện thoại" required>
+      <select id="updateStatus" required>
+        <option value="">Tình trạng</option>
+        <option value="Đang học">Đang học</option>
+        <option value="Đã tốt nghiệp">Đã tốt nghiệp</option>
+        <option value="Đã thôi học">Đã thôi học</option>
+        <option value="Tạm dừng học">Tạm dừng học</option>
+      </select>
+      <button type="submit">Cập nhật sinh viên</button>
+    </form>
+
+    <!-- Xóa Sinh Viên -->
+    <h2>Xóa Sinh Viên</h2>
+    <form id="deleteForm">
+      <input type="text" id="deleteMssv" placeholder="Mã số sinh viên" required>
+      <button type="submit">Xóa sinh viên</button>
+    </form>
+
+    <!-- Tìm Kiếm Sinh Viên -->
+    <h2>Tìm Kiếm Sinh Viên</h2>
+    <form id="searchForm">
+      <input type="text" id="searchMssv" placeholder="Mã số sinh viên hoặc Họ tên" required>
+      <button type="submit">Tìm kiếm</button>
+    </form>
+    <div id="studentList"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
