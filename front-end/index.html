@@ -21,8 +21,16 @@
         <option value="Nam">Nam</option>
         <option value="Nữ">Nữ</option>
       </select>
-      <input type="text" id="faculty" placeholder="Khoa" required>
-      <input type="text" id="class" placeholder="Khóa" required>
+      <select id="faculty" required>
+        <option value="">Chọn Khoa</option>       
+        <option value="Khoa Luật">Khoa Luật</option>      
+        <option value="Khoa Thương mại">Khoa Thương mại</option>        
+        <option value="Khoa Tiếng Nhật">Khoa Tiếng Nhật</option>       
+        <option value="Khoa Tiếng Pháp">Khoa Tiếng Pháp</option>       
+      </select>
+      <select id="class" required>
+        <option value="">Chọn Khóa</option>
+      </select>
       <input type="text" id="program" placeholder="Chương trình" required>
       <input type="text" id="address" placeholder="Địa chỉ" required>
       <input type="email" id="email" placeholder="Email" required>
@@ -51,8 +59,16 @@
         <option value="Nam">Nam</option>
         <option value="Nữ">Nữ</option>
       </select>
-      <input type="text" id="updateFaculty" placeholder="Khoa" required>
-      <input type="text" id="updateClass" placeholder="Khóa" required>
+      <select id="updateFaculty" required>
+        <option value="">Chọn Khoa</option>       
+        <option value="Khoa Luật">Khoa Luật</option>      
+        <option value="Khoa Thương mại">Khoa Thương mại</option>        
+        <option value="Khoa Tiếng Nhật">Khoa Tiếng Nhật</option>       
+        <option value="Khoa Tiếng Pháp">Khoa Tiếng Pháp</option>       
+      </select>
+      <select id="updateClass" required>
+        <option value="">Chọn Khóa</option>
+      </select>
       <input type="text" id="updateProgram" placeholder="Chương trình" required>
       <input type="text" id="updateAddress" placeholder="Địa chỉ" required>
       <input type="email" id="updateEmail" placeholder="Email" required>
@@ -81,7 +97,35 @@
       <button type="submit">Tìm kiếm</button>
     </form>
     <div id="studentList"></div>
-  </div>
+    <!-- Tìm Kiếm Sinh Viên theo Khoa + theo tên -->
+    <h2>Tìm Kiếm theo Khoa</h2>
+    <form id="advanceSearchForm">
+      <select id="searchFaculty">
+        <option value="">Tất cả khoa</option>
+        <option value="Khoa Luật">Khoa Luật</option>
+        <option value="Khoa Thương mại">Khoa Thương mại</option>
+        <option value="Khoa Tiếng Nhật">Khoa Tiếng Nhật</option>
+        <option value="Khoa Tiếng Pháp">Khoa Tiếng Pháp</option>
+      </select>
+      <input type="text" id="searchName" placeholder="Nhập tên sinh viên">
+      <button type="submit">Tìm kiếm</button>
+    </form>
+    <div id="studentListAd"></div>
+
+    <h2>Export / Import Dữ Liệu</h2>
+      <button id="exportCsvBtn">Xuất CSV</button>
+      <button id="exportJsonBtn">Xuất JSON</button>
+
+      <form id="importCsvForm">
+        <input type="file" id="csvFile" accept=".csv">
+        <button type="submit">Nhập CSV</button>
+      </form>
+
+      <form id="importJsonForm">
+        <input type="file" id="jsonFile" accept=".json">
+        <button type="submit">Nhập JSON</button>
+      </form>
+
   <script src="index.js"></script>
 </body>
 </html>
