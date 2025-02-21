@@ -3,15 +3,14 @@ const router = express.Router();
 const studentController = require('../controllers/studentController');
 const multer = require('multer');
 const logger = require('../config/logger.js');
-
 const upload = multer({ dest: 'uploads/' });
 
 // Middleware log request
 const logRequest = (req, res, next) => {
   const { method, originalUrl } = req;
   const logMessage = `${method} ${originalUrl}`;
-  logger.info(logMessage); // Ghi log thông tin yêu cầu vào file và console
-  next(); // Tiếp tục xử lý yêu cầu
+  logger.info(logMessage); 
+  next();
 };
 
 // Thêm middleware log vào các route

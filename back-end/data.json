@@ -1,0 +1,23 @@
+{
+  "faculties": [
+    "Khoa Luật",
+    "Khoa Thương mại",
+    "Khoa Tiếng Nhật",
+    "Khoa Tiếng Pháp",
+    "Khoa Công nghệ thông tin"
+  ],
+  "programs": [
+    "Cử nhân",
+    "Kỹ sư",
+    "Thạc sĩ",
+    "Tiến sĩ",
+    "Đại học"
+  ],
+  "statuses": [
+    "Đang học",
+    "Đã tốt nghiệp",
+    "Đã thôi học",
+    "Tạm dừng học",
+    "Cảnh cáo học vụ"
+  ]
+}

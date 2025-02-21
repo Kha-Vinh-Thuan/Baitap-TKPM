@@ -32,7 +32,6 @@ function addStudent(req, res) {
   });
 }
 
-
 function deleteStudent(req, res) {
   const mssv = req.params.mssv;
   logger.info(`DELETE_STUDENT_ATTEMPT: MSSV: ${mssv}`);
@@ -125,7 +124,6 @@ function searchStudentbyFaculty(req, res) {
     res.json(result); 
   });
 }
-
 
 function advanceSearch(req, res) {
   const { faculty, name } = req.query;

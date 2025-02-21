@@ -26,7 +26,7 @@
 
   <div class="container">
     <h1>Quản lý Sinh Viên</h1>
-
+    
     <!-- Thêm Sinh Viên -->
     <h2>Thêm Sinh Viên</h2>
     <form id="studentForm">
@@ -40,24 +40,18 @@
       </select>
       <select id="faculty" required>
         <option value="">Chọn Khoa</option>       
-        <option value="Khoa Luật">Khoa Luật</option>      
-        <option value="Khoa Thương mại">Khoa Thương mại</option>        
-        <option value="Khoa Tiếng Nhật">Khoa Tiếng Nhật</option>       
-        <option value="Khoa Tiếng Pháp">Khoa Tiếng Pháp</option>       
       </select>
       <select id="class" required>
         <option value="">Chọn Khóa</option>
       </select>
-      <input type="text" id="program" placeholder="Chương trình" required>
+      <select id="program" required>
+        <option value="">Chọn Chương trình đào tạo</option>   
+      </select>
       <input type="text" id="address" placeholder="Địa chỉ" required>
       <input type="email" id="email" placeholder="Email" required>
       <input type="text" id="phone" placeholder="Số điện thoại" required>
       <select id="status" required>
         <option value="">Tình trạng</option>
-        <option value="Đang học">Đang học</option>
-        <option value="Đã tốt nghiệp">Đã tốt nghiệp</option>
-        <option value="Đã thôi học">Đã thôi học</option>
-        <option value="Tạm dừng học">Tạm dừng học</option>
       </select>
       <button type="submit">Thêm sinh viên</button>
     </form>
@@ -76,25 +70,19 @@
         <option value="Nữ">Nữ</option>
       </select>
       <select id="updateFaculty" required>
-        <option value="">Chọn Khoa</option>       
-        <option value="Khoa Luật">Khoa Luật</option>      
-        <option value="Khoa Thương mại">Khoa Thương mại</option>        
-        <option value="Khoa Tiếng Nhật">Khoa Tiếng Nhật</option>       
-        <option value="Khoa Tiếng Pháp">Khoa Tiếng Pháp</option>       
+        <option value="">Chọn Khoa</option>
       </select>
       <select id="updateClass" required>
         <option value="">Chọn Khóa</option>
       </select>
-      <input type="text" id="updateProgram" placeholder="Chương trình" required>
+      <select id="updateProgram" required>
+        <option value="">Chọn Chương trình đào tạo</option>
+      </select>
       <input type="text" id="updateAddress" placeholder="Địa chỉ" required>
       <input type="email" id="updateEmail" placeholder="Email" required>
       <input type="text" id="updatePhone" placeholder="Số điện thoại" required>
       <select id="updateStatus" required>
         <option value="">Tình trạng</option>
-        <option value="Đang học">Đang học</option>
-        <option value="Đã tốt nghiệp">Đã tốt nghiệp</option>
-        <option value="Đã thôi học">Đã thôi học</option>
-        <option value="Tạm dừng học">Tạm dừng học</option>
       </select>
       <button type="submit">Cập nhật sinh viên</button>
     </form>
@@ -129,7 +117,7 @@
     <div id="studentListFaculty"></div>
 
     <!-- Tìm Kiếm Sinh Viên theo Khoa + theo tên -->
-    <h2>Tìm Kiếm theo Khoa và tên của Sinh viên</h2>
+    <h2>Tìm kiếm theo Khoa và tên của Sinh viên</h2>
     <form id="advanceSearchForm">
       <select id="searchFaculty">
         <option value="">Tất cả khoa</option>
@@ -156,6 +144,42 @@
         <input type="file" id="jsonFile" accept=".json">
         <button type="submit">Nhập JSON</button>
       </form>
+
+      <h2>Thêm Khoa</h2>
+        <input type="text" id="newFaculty" placeholder="Nhập tên khoa mới">
+        <button type="button" id="addFacultyBtn">Thêm Khoa</button>
+
+      <h2>Thêm Chương trình đào tạo</h2>
+        <input type="text" id="newProgram" placeholder="Nhập tên chương trình đào tạo mới">
+        <button type="button" id="addProgramBtn">Thêm chương trình</button>
+
+      <h2>Thêm Tình trạng</h2>
+        <input type="text" id="newStatus" placeholder="Nhập tên tình trạng">
+        <button type="button" id="addStatusBtn">Thêm tình trạng</button>
+
+      <!-- Đổi tên khoa -->
+      <h2>Sửa tên Khoa</h2> 
+      <select id="oldFacultyName" required>
+        <option value="">Chọn Khoa</option>       
+      </select>  
+        <input type="text" id="newFacultyName" placeholder="Nhập tên khoa mới">
+        <button id="renameFacultyBtn">Đổi tên khoa</button>
+
+      <!-- Đổi tên chương trình -->
+      <h2>Sửa tên Chương trình</h2> 
+      <select id="oldProgramName" required>
+        <option value="">Chọn chương trình</option>       
+      </select>         
+        <input type="text" id="newProgramName" placeholder="Nhập tên chương trình mới">
+        <button id="renameProgramBtn">Đổi tên chương trình</button>
+
+        <!-- Đổi tên tình trạng -->
+      <h2>Sửa tên Tình trạng</h2> 
+      <select id="oldStatusName" required>
+        <option value="">Chọn tình trạng</option>       
+      </select>  
+        <input type="text" id="newStatusName" placeholder="Nhập tên tình trạng mới">
+        <button id="renameStatusBtn">Đổi tên tình trạng</button>
 
   <script src="index.js"></script>
 </body>

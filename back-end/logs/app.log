@@ -54,3 +54,370 @@
 2025-02-21 09:04:40 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: Khoa Tiếng Nhật
 2025-02-21 09:04:40 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
 2025-02-21 09:04:40 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 2 sinh viên.
+2025-02-21 09:40:34 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-21 09:40:34 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-21 09:40:34 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 09:40:34 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 14:04:03 [INFO]: GET /api/app-info
+2025-02-21 14:04:03 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:04:03 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:04:03 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:07:35 [INFO]: GET /api/app-info
+2025-02-21 14:07:35 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:07:35 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:07:35 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:07:48 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:07:48 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:07:48 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:07:48 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:07:48 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:07:48 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:16:05 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:16:05 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:16:05 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:16:05 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:16:05 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:16:05 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:17:37 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:17:37 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:17:37 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:17:37 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:17:37 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:17:37 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:20:03 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:20:03 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:20:03 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:20:03 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:20:03 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:20:03 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:21:57 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:21:57 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:21:57 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:21:57 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:21:57 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:21:57 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:21:58 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:21:58 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:21:58 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:21:58 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:21:58 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:21:58 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:22:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:22:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:22:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:22:23 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:22:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:22:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:23:02 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:23:02 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:23:02 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:23:02 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:23:02 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:23:02 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:26:39 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:26:39 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:26:39 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:26:39 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:26:39 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:26:39 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:27:42 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:27:42 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:27:42 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:27:42 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:27:42 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:27:42 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:29:23 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-21 14:29:23 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-21 14:29:23 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 14:29:23 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 14:31:05 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:31:05 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:31:05 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:31:05 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:31:05 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:31:05 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:31:08 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-21 14:31:08 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-21 14:31:08 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 14:31:08 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 14:38:10 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:38:10 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:38:10 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:38:10 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:38:10 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:38:10 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:40:12 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:40:12 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:40:12 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:40:12 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:40:12 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:40:12 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:50:28 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:50:28 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:50:28 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:50:28 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:50:28 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:50:28 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:51:40 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:51:40 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:51:40 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:51:40 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:51:40 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:51:40 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:51:55 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:51:55 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:51:55 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:51:55 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:51:55 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:51:55 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:54:36 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:54:36 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:54:36 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:54:36 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:54:36 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:54:36 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:54:45 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-21 14:54:45 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-21 14:54:45 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 14:54:45 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 14:55:31 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:55:31 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:55:31 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:55:31 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:55:31 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:55:31 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:56:00 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 14:56:00 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 14:56:00 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 14:56:00 [INFO]: GET /api/options/takeOptions
+2025-02-21 14:56:00 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 14:56:00 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 14:56:22 [INFO]: GET /api/students/searchStudentbyFaculty?query=Khoa%20Th%C6%B0%C6%A1ng%20m%E1%BA%A1i
+2025-02-21 14:56:22 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: Khoa Thương mại
+2025-02-21 14:56:22 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 14:56:22 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 14:56:31 [INFO]: GET /api/students/searchStudentbyFaculty?query=Khoa%20Ti%E1%BA%BFng%20Nh%E1%BA%ADt
+2025-02-21 14:56:31 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: Khoa Tiếng Nhật
+2025-02-21 14:56:31 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 14:56:31 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 2 sinh viên.
+2025-02-21 15:00:20 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:00:20 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:00:20 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:00:20 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:00:20 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:00:20 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:00:33 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:00:33 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:00:33 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:00:33 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:00:33 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:00:33 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:01:19 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:01:19 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:01:19 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:01:19 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:01:19 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:01:19 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:01:53 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:01:53 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:01:53 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:01:53 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:01:53 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:01:53 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:02:12 [INFO]: POST /api/options/addFaculty
+2025-02-21 15:02:12 [INFO]: ADD_FACULTY_ATTEMPT: Đang thêm khoa mới.
+2025-02-21 15:02:12 [INFO]: ADD_FACULTY_SUCCESS: Khoa đã được thêm thành công.
+2025-02-21 15:03:25 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:03:25 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:03:25 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:03:25 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:03:25 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:03:25 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:03:28 [INFO]: POST /api/options/addProgram
+2025-02-21 15:03:28 [INFO]: ADD_PROGRAM_ATTEMPT: Đang thêm chương trình mới.
+2025-02-21 15:03:28 [INFO]: ADD_PROGRAM_SUCCESS: Chương trình đã được thêm thành công.
+2025-02-21 15:04:30 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:04:30 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:04:30 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:04:30 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:04:30 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:04:30 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:05:51 [INFO]: POST /api/options/addStatus
+2025-02-21 15:05:51 [INFO]: ADD_STATUS_ATTEMPT: Đang thêm tình trạng mới.
+2025-02-21 15:05:51 [INFO]: ADD_STATUS_SUCCESS: Tình trạng đã được thêm thành công.
+2025-02-21 15:06:34 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:06:34 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:06:34 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:06:34 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:06:34 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:06:34 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:07:16 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:07:16 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:07:16 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:07:16 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:07:16 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:07:16 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:07:16 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:07:16 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:07:16 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:07:16 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:07:16 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:07:16 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:08:48 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:08:48 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:08:48 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:08:48 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:08:48 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:08:48 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:09:22 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:09:22 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:09:22 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:09:22 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:09:22 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:09:22 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:12:34 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:12:34 [ERROR]: ERROR: Khoa không tìm thấy.
+2025-02-21 15:13:46 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:13:46 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:13:46 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:13:46 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:13:46 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:13:46 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:14:12 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:14:12 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:14:12 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:14:12 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:14:12 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:14:12 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:14:29 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:14:29 [ERROR]: ERROR: Khoa không tìm thấy.
+2025-02-21 15:15:12 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:15:12 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:15:12 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:15:12 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:15:12 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:15:12 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:15:22 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:15:22 [ERROR]: ERROR: Khoa không tìm thấy.
+2025-02-21 15:16:30 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:16:30 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:16:30 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:16:30 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:16:30 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:16:30 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:16:42 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:16:42 [ERROR]: ERROR: Khoa không tìm thấy.
+2025-02-21 15:17:54 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:17:54 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:17:54 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:17:54 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:17:54 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:17:54 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:22 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:22 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:22 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:22 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:22 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:22 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:25 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:25 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:25 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:25 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:25 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:25 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:26 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:26 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:26 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:26 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:26 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:26 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:27 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:27 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:27 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:27 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:27 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:27 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:27 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:19:27 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:19:27 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:19:27 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:19:36 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:19:36 [ERROR]: ERROR: Khoa không tìm thấy.
+2025-02-21 15:21:17 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:21:17 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:21:17 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:21:17 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:21:17 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:21:17 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:21:55 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:21:55 [INFO]: RENAME_FACULTY_SUCCESS: Khoa Khoa Toán đã được đổi tên thành Khoa Công nghệ thông tin.
+2025-02-21 15:21:58 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:21:58 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:21:58 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:21:58 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:21:58 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:21:58 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:24:12 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:24:12 [INFO]: RENAME_FACULTY_SUCCESS: Khoa Khoa Công nghệ thông tin đã được đổi tên thành Khoa Toán.
+2025-02-21 15:24:13 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:24:13 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:24:13 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:24:13 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:24:13 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:24:13 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:24:28 [INFO]: PUT /api/options/renameFaculty
+2025-02-21 15:24:28 [INFO]: RENAME_FACULTY_SUCCESS: Khoa Khoa Toán đã được đổi tên thành Khoa Công nghệ thông tin.
+2025-02-21 15:25:37 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:25:37 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:25:37 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:25:37 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:25:37 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:25:37 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:26:07 [INFO]: PUT /api/options/renameProgram
+2025-02-21 15:26:07 [INFO]: RENAME_PROGRAM_SUCCESS: Chương trình Cao học đã được đổi tên thành Đại học.
+2025-02-21 15:26:58 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:26:58 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:26:58 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:26:58 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:26:58 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:26:58 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:27:28 [INFO]: PUT /api/options/renameStatus
+2025-02-21 15:27:28 [INFO]: RENAME_STATUS_SUCCESS: Tình trạng Đang học vượt đã được đổi tên thành Cảnh cáo học vụ.
+2025-02-21 15:28:35 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:28:35 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:28:35 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:28:35 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:28:35 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:28:35 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:40:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:40:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:40:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:40:23 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:40:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:40:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:45:39 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:45:39 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:45:39 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:45:39 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:45:39 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:45:39 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:45:40 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:45:40 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:45:40 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:45:40 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:45:40 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:45:40 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.

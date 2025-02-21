@@ -1,6 +1,68 @@
 document.addEventListener('DOMContentLoaded', () => {
   fetchVersionInfo();
 
+function fetchOptions() {
+  fetch('http://localhost:3000/api/options/takeOptions')
+    .then(response => response.json())
+    .then(data => {
+      populateSelect('faculty', data.faculties);
+      populateSelect('program', data.programs);
+      populateSelect('status', data.statuses);
+      populateSelect('updateFaculty', data.faculties);
+      populateSelect('updateProgram', data.programs);
+      populateSelect('updateStatus', data.statuses);
+      populateSelect('oldFacultyName', data.faculties);
+      populateSelect('oldProgramName', data.programs);
+      populateSelect('oldStatusName', data.statuses);
+    })
+    .catch(error => console.log('Error fetching options:', error));
+}
+
+function populateSelect(selectId, options) {
+  const selectElement = document.getElementById(selectId);
+  selectElement.innerHTML = '';  
+
+  const defaultOption = document.createElement('option');
+  defaultOption.value = '';
+
+  defaultOption.textContent = `Chọn ${getSelectLabel(selectId)}`;
+  selectElement.appendChild(defaultOption);
+
+  options.forEach(option => {
+    const optionElement = document.createElement('option');
+    optionElement.value = option;
+    optionElement.textContent = option; 
+    selectElement.appendChild(optionElement);
+  });
+}
+
+function getSelectLabel(selectId) {
+  switch (selectId) {
+    case 'faculty':
+      return 'Khoa';
+    case 'program':
+      return 'Chương trình đào tạo';
+    case 'status':
+      return 'Tình trạng';
+    case 'updateFaculty':
+      return 'Khoa';
+    case 'updateProgram':
+      return 'Chương trình đào tạo';
+    case 'updateStatus':
+      return 'Tình trạng';
+    case 'oldFacultyName':
+      return 'Khoa';
+    case 'oldProgramName':
+      return 'Chương trình đào tạo';
+    case 'oldStatusName':
+      return 'Tình trạng';      
+    default:
+      return 'Lựa chọn';
+  }
+}
+
+fetchOptions();
+
   function initializeYearSelect(selectId) {
     const select = document.getElementById(selectId);
     const currentYear = new Date().getFullYear();
@@ -38,6 +100,82 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }, 86400000);
+
+  document.getElementById('addFacultyBtn').addEventListener('click', function() {
+    const facultyName = document.getElementById('newFaculty').value; 
+
+    if (facultyName) {
+      fetch('http://localhost:3000/api/options/addFaculty', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify({ faculty: facultyName })  
+      })
+      .then(response => response.json())  
+      .then(data => {
+        alert(data.message); 
+        document.getElementById('newFaculty').value = ''; 
+      })
+      .catch(error => {
+        console.error('Error adding faculty:', error);
+        alert('Không thể thêm Khoa!');
+      });
+    } else {
+      alert('Vui lòng nhập tên khoa');
+    }
+  });
+
+  document.getElementById('addProgramBtn').addEventListener('click', function() {
+    const programName = document.getElementById('newProgram').value; 
+
+    if (programName) {
+      fetch('http://localhost:3000/api/options/addProgram', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify({ program: programName })  
+      })
+      .then(response => response.json())  
+      .then(data => {
+        alert(data.message); 
+        document.getElementById('newProgram').value = ''; 
+      })
+      .catch(error => {
+        console.error('Error adding program:', error);
+        alert('Không thể thêm chương trình!');
+      });
+    } else {
+      alert('Vui lòng nhập tên chương trình');
+    }
+  });
+
+  document.getElementById('addStatusBtn').addEventListener('click', function() {
+    const statusName = document.getElementById('newStatus').value; 
+
+    if (statusName) {
+      fetch('http://localhost:3000/api/options/addStatus', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify({ status: statusName })  
+      })
+      .then(response => response.json())  
+      .then(data => {
+        alert(data.message); 
+        document.getElementById('newStatus').value = ''; 
+      })
+      .catch(error => {
+        console.error('Error adding status:', error);
+        alert('Không thể thêm Chương trình!');
+      });
+    } else {
+      alert('Vui lòng nhập tên Chương trình');
+    }
+  });
+
   document.getElementById('studentForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -65,6 +203,88 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(response => response.json())
     .then(data => alert(data.message))
     .catch(error => console.log(error));
+  });
+
+  document.getElementById('renameFacultyBtn').addEventListener('click', function() {
+    const oldFacultyName = document.getElementById('oldFacultyName').value; 
+    const newFacultyName = document.getElementById('newFacultyName').value;
+  
+    if (oldFacultyName && newFacultyName) {
+      fetch('http://localhost:3000/api/options/renameFaculty', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify({ oldFacultyName, newFacultyName })  
+      })
+      .then(response => response.json())  
+      .then(data => {
+        alert(data.message); 
+        document.getElementById('oldFacultyName').value = ''; 
+        document.getElementById('newFacultyName').value = ''; 
+      })
+      .catch(error => {
+        console.error('Error renaming faculty:', error);
+        alert('Không thể đổi tên khoa!');
+      });
+    } else {
+      alert('Vui lòng nhập tên khoa cũ và tên khoa mới');
+    }
+  });
+
+  document.getElementById('renameProgramBtn').addEventListener('click', function() {
+    const oldProgramName = document.getElementById('oldProgramName').value; 
+    const newProgramName = document.getElementById('newProgramName').value;
+  
+    if (oldProgramName && newProgramName) {
+      fetch('http://localhost:3000/api/options/renameProgram', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify({ oldProgramName, newProgramName })  
+      })
+      .then(response => response.json())  
+      .then(data => {
+        alert(data.message); 
+        document.getElementById('oldProgramName').value = ''; 
+        document.getElementById('newProgramName').value = ''; 
+      })
+      .catch(error => {
+        console.error('Error renaming program:', error);
+        alert('Không thể đổi tên chương trình!');
+      });
+    } else {
+      alert('Vui lòng nhập tên chương trình cũ và tên chương trình mới');
+    }
+  });
+  
+  // Lắng nghe sự kiện đổi tên tình trạng
+  document.getElementById('renameStatusBtn').addEventListener('click', function() {
+    const oldStatusName = document.getElementById('oldStatusName').value; 
+    const newStatusName = document.getElementById('newStatusName').value;
+  
+    if (oldStatusName && newStatusName) {
+      fetch('http://localhost:3000/api/options/renameStatus', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify({ oldStatusName, newStatusName })  
+      })
+      .then(response => response.json())  
+      .then(data => {
+        alert(data.message); 
+        document.getElementById('oldStatusName').value = ''; 
+        document.getElementById('newStatusName').value = ''; 
+      })
+      .catch(error => {
+        console.error('Error renaming status:', error);
+        alert('Không thể đổi tên tình trạng!');
+      });
+    } else {
+      alert('Vui lòng nhập tên tình trạng cũ và tên tình trạng mới');
+    }
   });
 
   // Cập nhật sinh viên

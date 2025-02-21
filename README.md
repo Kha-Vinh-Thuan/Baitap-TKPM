@@ -1,3 +1,4 @@
+# Version 1.0
 Prerequisites
 Before running this application, ensure that you have the following installed:
 
@@ -31,8 +32,7 @@ You need to download both the front-end and back-end folders. The project direct
 - Navigate to the front-end folder.
 - Right-click on index.html and select Open with Live Server.
 
-Version 2.0
-
+# Version 2.0
 Introduction
 This is Version 2.0 of the Student Management Application, upgraded from Version 1.0 with improved scalability and additional features.
 New Features in Version 2.0
@@ -41,8 +41,7 @@ New Features in Version 2.0
   Version 2.0: Now supports Cloud Storage, providing greater flexibility for deployment.
 
 2. Student Information Update
-  Version 1.0: Allowed student creation but did not support updating information.
-  Version 2.0: Enables student information updates.
+  Version 2.0: Enables add and update faculty, program, status.
 
 3. Enhanced Search System
   Version 1.0: Supported searching by Student ID only.
@@ -64,7 +63,7 @@ New Features in Version 2.0
   Version 2.0 introduces an API to check the application version and build date.
 
 *Download the Project Files*
-You need to download both the front-end and back-end folders. The project directory structure should look like this:
+You need to download both the front-end and back-end folders. The project directory structure should look like 
 - back-end
   - config
     - logger.js
