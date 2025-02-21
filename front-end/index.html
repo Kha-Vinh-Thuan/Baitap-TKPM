@@ -5,8 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quản lý Sinh Viên</title>
   <link rel="stylesheet" href="index.css">
+  <style>
+    /* Style cho phần hiển thị thông tin phiên bản và ngày build */
+    #appInfo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
+  <div id="appInfo">
+    <span id="version">Version: </span> | <span id="buildDate">Build Date: </span>
+  </div>
+
   <div class="container">
     <h1>Quản lý Sinh Viên</h1>
 
@@ -44,7 +61,6 @@
       </select>
       <button type="submit">Thêm sinh viên</button>
     </form>
-
     <!-- Cập nhật Sinh Viên -->
     <h2>Cập nhật Sinh Viên</h2>
     <form id="updateForm">

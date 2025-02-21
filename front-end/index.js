@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+  fetchVersionInfo();
+
   function initializeYearSelect(selectId) {
     const select = document.getElementById(selectId);
     const currentYear = new Date().getFullYear();
@@ -267,3 +269,20 @@ document.getElementById('importJsonForm').addEventListener('submit', function(ev
   .then(data => alert(data.message))
   .catch(error => console.log(error));
 });
+
+async function fetchVersionInfo() {
+  try {
+    const response = await fetch('http://localhost:3000/api/app-info'); // Thay URL bằng endpoint thực tế của bạn
+    if (!response.ok) {
+      throw new Error('Không thể lấy thông tin phiên bản');
+    }
+
+    const data = await response.json();
+    document.getElementById('version').textContent = `Version: ${data.version}`;
+    document.getElementById('buildDate').textContent = `Build Date: ${data.buildDate}`;
+  } catch (error) {
+    console.error('Lỗi khi lấy thông tin phiên bản:', error);
+    document.getElementById('version').textContent = 'Version: Không xác định';
+    document.getElementById('buildDate').textContent = 'Build Date: Không xác định';
+  }
+}

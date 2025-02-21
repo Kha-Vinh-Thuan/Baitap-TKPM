@@ -2,21 +2,31 @@ const express = require('express');
 const router = express.Router();
 const studentController = require('../controllers/studentController');
 const multer = require('multer');
+const logger = require('../config/logger.js');
 
-const upload = multer({ dest: 'uploads/' }); // Lưu file tạm vào thư mục uploads/
+const upload = multer({ dest: 'uploads/' });
 
-router.post('/addStudent', studentController.addStudent);
-router.delete('/deleteStudent/:mssv', studentController.deleteStudent);
-router.put('/updateStudent/:mssv', studentController.updateStudent);
-router.get('/searchStudent', studentController.searchStudent);
-router.get('/advanceSearch', studentController.advanceSearch);
+// Middleware log request
+const logRequest = (req, res, next) => {
+  const { method, originalUrl } = req;
+  const logMessage = `${method} ${originalUrl}`;
+  logger.info(logMessage); // Ghi log thông tin yêu cầu vào file và console
+  next(); // Tiếp tục xử lý yêu cầu
+};
+
+// Thêm middleware log vào các route
+router.post('/addStudent', logRequest, studentController.addStudent);
+router.delete('/deleteStudent/:mssv', logRequest, studentController.deleteStudent);
+router.put('/updateStudent/:mssv', logRequest, studentController.updateStudent);
+router.get('/searchStudent', logRequest, studentController.searchStudent);
+router.get('/advanceSearch', logRequest, studentController.advanceSearch);
 
 // Export dữ liệu sinh viên
-router.get('/export/csv', studentController.exportCSV);
-router.get('/export/json', studentController.exportJSON);
+router.get('/export/csv', logRequest, studentController.exportCSV);
+router.get('/export/json', logRequest, studentController.exportJSON);
 
 // Import dữ liệu sinh viên
-router.post('/import/csv', upload.single('file'), studentController.importCSV);
-router.post('/import/json', upload.single('file'), studentController.importJSON);
+router.post('/import/csv', upload.single('file'), logRequest, studentController.importCSV);
+router.post('/import/json', upload.single('file'), logRequest, studentController.importJSON);
 
 module.exports = router;
