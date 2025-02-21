@@ -32,6 +32,7 @@ You need to download both the front-end and back-end folders. The project direct
 - Right-click on index.html and select Open with Live Server.
 
 Version 2.0
+
 Introduction
 This is Version 2.0 of the Student Management Application, upgraded from Version 1.0 with improved scalability and additional features.
 New Features in Version 2.0
