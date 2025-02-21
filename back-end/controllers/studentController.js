@@ -100,12 +100,32 @@ function searchStudent(req, res) {
     }
 
     const result = students.filter(student =>
-      student.mssv.includes(query) || student.name.includes(query)
+      student.mssv.includes(query)
     );
     logger.info(`SEARCH_STUDENT_RESULT: Tìm thấy ${result.length} sinh viên.`);
     res.json(result);
   });
 }
+
+function searchStudentbyFaculty(req, res) {
+  const query = req.query.query;
+  logger.info(`SEARCH_STUDENT_ATTEMPT: Query: ${query}`);
+
+  studentModel.readStudents((err, students) => {
+    if (err) {
+      logger.error('ERROR: Không thể đọc dữ liệu sinh viên.');
+      return res.status(500).json({ message: 'Không thể đọc dữ liệu sinh viên.' });
+    }
+
+    const result = students.filter(student =>
+      student.faculty.includes(query) 
+    );
+
+    logger.info(`SEARCH_STUDENT_RESULT: Tìm thấy ${result.length} sinh viên.`);
+    res.json(result); 
+  });
+}
+
 
 function advanceSearch(req, res) {
   const { faculty, name } = req.query;
@@ -219,6 +239,7 @@ module.exports = {
   deleteStudent,
   updateStudent,
   searchStudent,
+  searchStudentbyFaculty,
   advanceSearch,
   exportCSV,
   importCSV,

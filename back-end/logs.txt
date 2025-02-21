@@ -1,0 +1,76 @@
+[2025-02-15T20:21:52.136Z] ADD_STUDENT_ATTEMPT: MSSV: 22127401
+[2025-02-15T20:21:52.137Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:21:52.139Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:21:52.139Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:22:44.238Z] ADD_STUDENT_ATTEMPT: MSSV: 22127401
+[2025-02-15T20:22:44.239Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:22:44.239Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:22:44.240Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:24:49.644Z] SEARCH_STUDENT_ATTEMPT: Query: ${mssv}
+[2025-02-15T20:24:49.645Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:24:49.645Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:24:49.646Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:25:05.257Z] SEARCH_STUDENT_ATTEMPT: Query: ${mssv}
+[2025-02-15T20:25:05.259Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:25:05.259Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:25:05.260Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:27:44.692Z] SEARCH_STUDENT_ATTEMPT: Query: 22127408
+[2025-02-15T20:27:44.692Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:27:44.693Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:27:44.693Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:27:50.829Z] SEARCH_STUDENT_ATTEMPT: Query: 22127408
+[2025-02-15T20:27:50.830Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:27:50.830Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:27:50.830Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:30:34.546Z] SEARCH_STUDENT_ATTEMPT: Query: 22127408
+[2025-02-15T20:30:34.548Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:30:34.548Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:30:34.548Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:33:38.803Z] SEARCH_STUDENT_ATTEMPT: Query: 22127408
+[2025-02-15T20:33:38.804Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:33:38.805Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:33:38.805Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:33:57.641Z] SEARCH_STUDENT_ATTEMPT: Query: 22127408
+[2025-02-15T20:33:57.641Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:33:57.641Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:33:57.641Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:36:16.693Z] SEARCH_STUDENT_ATTEMPT: Query: 
+[2025-02-15T20:36:16.694Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:36:16.695Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:36:16.696Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:36:19.573Z] SEARCH_STUDENT_ATTEMPT: Query: 22127408
+[2025-02-15T20:36:19.573Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:36:19.574Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:36:19.574Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:36:24.341Z] DELETE_STUDENT_ATTEMPT: MSSV: 21269744
+[2025-02-15T20:36:24.341Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:36:24.341Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:36:24.342Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:36:28.509Z] SEARCH_STUDENT_ATTEMPT: Query: 
+[2025-02-15T20:36:28.509Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:36:28.509Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:36:28.510Z] ERROR: Không thể đọc dữ liệu sinh viên.
+[2025-02-15T20:38:42.356Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:38:42.358Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:38:51.740Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:38:51.740Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:39:43.997Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:39:43.998Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:40:19.025Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:40:19.025Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:40:24.252Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:40:24.253Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:40:28.406Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:40:28.407Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:43:57.489Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:43:57.490Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:44:02.984Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:44:02.985Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:44:07.339Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:44:07.339Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:44:50.944Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:44:50.945Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:45:39.355Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:45:39.356Z] ERROR: Không thể đọc file dữ liệu sinh viên.
+[2025-02-15T20:48:33.643Z] READ_STUDENTS_ATTEMPT: Bắt đầu đọc danh sách sinh viên.
+[2025-02-15T20:48:33.643Z] ERROR: Không thể đọc file dữ liệu sinh viên.

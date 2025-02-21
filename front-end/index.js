@@ -176,6 +176,44 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.log(error));
 });
+
+document.getElementById('searchFormFaculty').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const query = document.getElementById('searchFaculty').value;
+
+  fetch(`http://localhost:3000/api/students/searchStudentbyFaculty?query=${query}`)
+      .then(response => response.json())
+      .then(data => {
+          const studentList = document.getElementById('studentListFaculty');
+          studentList.innerHTML = '';
+
+          if (data.length > 0) {
+              data.forEach(student => {
+                  const info = `
+                       -----------------------------
+                      Tên: ${student.name}
+                      MSSV: ${student.mssv}
+                      Ngày sinh: ${student.dob}
+                      Giới tính: ${student.gender}
+                      Khoa: ${student.faculty}
+                      Khóa: ${student.class}
+                      Chương trình: ${student.program}
+                      Địa chỉ: ${student.address}
+                      Email: ${student.email}
+                      Điện thoại: ${student.phone}
+                      Tình trạng: ${student.status}
+                      -----------------------------
+                  `;
+                  studentList.innerText += info + '\n';
+              });
+          } else {
+              studentList.innerText = "Không tìm thấy sinh viên phù hợp.";
+          }
+      })
+      .catch(error => console.log(error));
+});
+
 document.getElementById('advanceSearchForm').addEventListener('submit', function(event) {
   event.preventDefault();
 

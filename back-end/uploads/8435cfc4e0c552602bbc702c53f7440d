@@ -37,5 +37,18 @@
     "email": "fitus247416@gmail.com",
     "phone": "0457526984",
     "status": "Đang học"
+  },
+  {
+    "mssv": "20127421",
+    "name": "Kha Văn B",
+    "dob": "2002-06-22",
+    "gender": "Nam",
+    "faculty": "Khoa Tiếng Nhật",
+    "class": "2020",
+    "program": "Đại trà",
+    "address": "Bình Định",
+    "email": "FFfitus17458@gmail.com",
+    "phone": "0457526984",
+    "status": "Đang học"
   }
 ]

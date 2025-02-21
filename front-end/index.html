@@ -109,12 +109,27 @@
     <!-- Tìm Kiếm Sinh Viên -->
     <h2>Tìm Kiếm Sinh Viên</h2>
     <form id="searchForm">
-      <input type="text" id="searchMssv" placeholder="Mã số sinh viên hoặc Họ tên" required>
+      <input type="text" id="searchMssv" placeholder="Mã số sinh viên" required>
       <button type="submit">Tìm kiếm</button>
     </form>
     <div id="studentList"></div>
+
+    <!-- Tìm kiếm theo Khoa-->
+    <h2>Tìm Kiếm Sinh Viên theo Khoa</h2>
+    <form id="searchFormFaculty">
+      <select id="searchFaculty">
+        <option value="">Tất cả khoa</option>
+        <option value="Khoa Luật">Khoa Luật</option>
+        <option value="Khoa Thương mại">Khoa Thương mại</option>
+        <option value="Khoa Tiếng Nhật">Khoa Tiếng Nhật</option>
+        <option value="Khoa Tiếng Pháp">Khoa Tiếng Pháp</option>
+      </select>
+      <button type="submit">Tìm kiếm</button>
+    </form>
+    <div id="studentListFaculty"></div>
+
     <!-- Tìm Kiếm Sinh Viên theo Khoa + theo tên -->
-    <h2>Tìm Kiếm theo Khoa</h2>
+    <h2>Tìm Kiếm theo Khoa và tên của Sinh viên</h2>
     <form id="advanceSearchForm">
       <select id="searchFaculty">
         <option value="">Tất cả khoa</option>

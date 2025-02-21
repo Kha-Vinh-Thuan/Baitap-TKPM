@@ -19,6 +19,7 @@ router.post('/addStudent', logRequest, studentController.addStudent);
 router.delete('/deleteStudent/:mssv', logRequest, studentController.deleteStudent);
 router.put('/updateStudent/:mssv', logRequest, studentController.updateStudent);
 router.get('/searchStudent', logRequest, studentController.searchStudent);
+router.get('/searchStudentbyFaculty', logRequest, studentController.searchStudentbyFaculty);
 router.get('/advanceSearch', logRequest, studentController.advanceSearch);
 
 // Export dữ liệu sinh viên

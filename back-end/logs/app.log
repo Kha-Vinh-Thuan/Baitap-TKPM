@@ -14,3 +14,43 @@
 2025-02-20 16:09:41 [INFO]: ADVANCE_SEARCH_ATTEMPT: Faculty: Khoa Tiếng Nhật, Name: Kha Văn B
 2025-02-20 16:09:41 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
 2025-02-20 16:09:41 [INFO]: ADVANCE_SEARCH_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 08:19:36 [INFO]: GET /api/students/advanceSearch?faculty=Khoa+Ti%E1%BA%BFng+Nh%E1%BA%ADt&name=Kha+V%C4%83n+B
+2025-02-21 08:19:36 [INFO]: ADVANCE_SEARCH_ATTEMPT: Faculty: Khoa Tiếng Nhật, Name: Kha Văn B
+2025-02-21 08:19:36 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 08:19:36 [INFO]: ADVANCE_SEARCH_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 08:28:51 [INFO]: GET /api/students/export/csv
+2025-02-21 08:28:51 [INFO]: EXPORT_CSV_ATTEMPT: Bắt đầu xuất CSV.
+2025-02-21 08:28:51 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 08:28:51 [INFO]: EXPORT_CSV_SUCCESS: Xuất CSV thành công.
+2025-02-21 08:28:52 [INFO]: GET /api/students/export/json
+2025-02-21 08:28:52 [INFO]: EXPORT_JSON_ATTEMPT: Bắt đầu xuất JSON.
+2025-02-21 08:28:52 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 08:28:52 [INFO]: EXPORT_JSON_SUCCESS: Xuất JSON thành công.
+2025-02-21 08:29:14 [INFO]: GET /api/students/export/csv
+2025-02-21 08:29:14 [INFO]: EXPORT_CSV_ATTEMPT: Bắt đầu xuất CSV.
+2025-02-21 08:29:14 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 08:29:14 [INFO]: EXPORT_CSV_SUCCESS: Xuất CSV thành công.
+2025-02-21 08:29:15 [INFO]: GET /api/students/export/json
+2025-02-21 08:29:15 [INFO]: EXPORT_JSON_ATTEMPT: Bắt đầu xuất JSON.
+2025-02-21 08:29:15 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 08:29:15 [INFO]: EXPORT_JSON_SUCCESS: Xuất JSON thành công.
+2025-02-21 08:35:13 [INFO]: POST /api/students/import/csv
+2025-02-21 08:35:13 [INFO]: IMPORT_CSV_ATTEMPT: Bắt đầu import CSV.
+2025-02-21 08:35:13 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-21 08:35:13 [INFO]: IMPORT_CSV_SUCCESS: Import CSV thành công.
+2025-02-21 08:36:19 [INFO]: POST /api/students/import/json
+2025-02-21 08:36:19 [INFO]: IMPORT_JSON_ATTEMPT: Bắt đầu import JSON.
+2025-02-21 08:36:19 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-21 08:36:19 [INFO]: IMPORT_JSON_SUCCESS: Import JSON thành công.
+2025-02-21 08:57:40 [INFO]: GET /api/students/searchStudentbyFaculty?query=Khoa%20Lu%E1%BA%ADt
+2025-02-21 08:57:40 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: Khoa Luật
+2025-02-21 08:57:40 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 08:57:40 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-21 09:00:35 [INFO]: GET /api/students/searchStudentbyFaculty?query=Khoa%20Ti%E1%BA%BFng%20Nh%E1%BA%ADt
+2025-02-21 09:00:35 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: Khoa Tiếng Nhật
+2025-02-21 09:00:35 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 09:00:35 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 2 sinh viên.
+2025-02-21 09:04:40 [INFO]: GET /api/students/searchStudentbyFaculty?query=Khoa%20Ti%E1%BA%BFng%20Nh%E1%BA%ADt
+2025-02-21 09:04:40 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: Khoa Tiếng Nhật
+2025-02-21 09:04:40 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-21 09:04:40 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 2 sinh viên.
