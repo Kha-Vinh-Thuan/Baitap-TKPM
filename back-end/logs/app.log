@@ -421,3 +421,948 @@
 2025-02-21 15:45:40 [INFO]: GET /api/options/takeOptions
 2025-02-21 15:45:40 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
 2025-02-21 15:45:40 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:45:44 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:45:44 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:45:44 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:45:44 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:45:44 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:45:44 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:53:43 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:53:43 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:53:43 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:53:43 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:53:43 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:53:43 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-21 15:54:01 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-21 15:54:01 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-21 15:54:01 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-21 15:54:01 [INFO]: GET /api/options/takeOptions
+2025-02-21 15:54:01 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-21 15:54:01 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:51:51 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:51:51 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:51:51 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:51:51 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:51:51 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:51:51 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:51:51 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:51:51 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:51:51 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:52:00 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 15:52:00 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 15:52:00 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:52:00 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:52:18 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:52:18 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:52:18 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:52:18 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:52:18 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:52:18 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:52:18 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:52:18 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:52:18 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:52:22 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 15:52:22 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 15:52:22 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:52:22 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:52:42 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:52:42 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:52:42 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:52:42 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:52:42 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:52:42 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:52:49 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 15:52:49 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 15:52:49 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:52:49 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:52:55 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 15:52:55 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 15:52:55 [ERROR]: ERROR: Email không hợp lệ: khavinhthuan114@gmail.com
+2025-02-25 15:53:09 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 15:53:09 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 15:53:09 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:09 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 15:53:09 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 15:53:11 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:53:11 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:53:11 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:53:11 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:53:11 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:53:11 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:53:14 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 15:53:14 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 15:53:14 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:14 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:53:19 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 15:53:19 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 15:53:19 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:19 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 15:53:19 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 15:53:20 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:53:20 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:53:20 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:53:20 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:53:20 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:53:20 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:53:23 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 15:53:23 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 15:53:23 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:23 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:53:27 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 15:53:27 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 15:53:27 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:27 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 15:53:27 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 15:53:28 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:53:28 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:53:28 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:53:28 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:53:28 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:53:28 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:53:30 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 15:53:30 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 15:53:30 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:30 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:53:32 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 15:53:32 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 15:53:32 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:32 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 15:53:32 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 15:53:34 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:53:34 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:53:34 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:53:34 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:53:34 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:53:34 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:53:36 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 15:53:36 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 15:53:36 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:36 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 15:53:44 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 15:53:44 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 15:53:44 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 15:53:44 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 15:53:44 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 15:53:46 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:53:46 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:53:46 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:53:46 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:53:46 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:53:46 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 15:54:16 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 15:54:16 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 15:54:16 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 15:54:16 [INFO]: GET /api/options/takeOptions
+2025-02-25 15:54:16 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 15:54:16 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:04:17 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:04:17 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:04:17 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:04:17 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:04:17 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:04:17 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:05:31 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:05:31 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:05:31 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:05:31 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:05:31 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:05:31 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:05:41 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:05:41 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:05:41 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:05:41 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:05:43 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:05:43 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:05:43 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:05:43 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:05:50 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 16:05:50 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 16:05:50 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:05:50 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:05:52 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:05:52 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:05:52 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:05:52 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:05:52 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:05:52 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:06:00 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:06:00 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:06:00 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:06:00 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:06:00 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:06:00 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:06:04 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:06:04 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:06:04 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:06:04 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:06:07 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:06:07 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:06:07 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đang học sang Đang học
+2025-02-25 16:06:18 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:06:18 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:06:18 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đang học sang Đang học
+2025-02-25 16:06:22 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:06:22 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:06:22 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:06:22 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:06:22 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:06:22 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:06:25 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:06:25 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:06:25 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:06:25 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:07:50 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:07:50 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:07:50 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:07:50 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:07:50 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:07:50 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:07:56 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:07:56 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:07:56 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:07:56 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:07:59 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:07:59 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:07:59 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đang học sang Đang học
+2025-02-25 16:09:22 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:09:22 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:09:22 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:09:22 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:09:22 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:09:22 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:10:15 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:10:15 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:10:15 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:10:15 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:10:15 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:10:15 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:10:45 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:10:45 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:10:45 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:10:45 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:10:45 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:10:45 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:10:52 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:10:52 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:10:52 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:10:52 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:10:52 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:10:53 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:10:55 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:10:55 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:10:55 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:10:55 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:10:59 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:10:59 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:10:59 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đang học sang Đang học
+2025-02-25 16:11:14 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:11:14 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:11:14 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đã thôi học sang Đã thôi học
+2025-02-25 16:12:08 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:12:08 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:12:08 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:12:08 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:12:08 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:12:08 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:12:12 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:12:12 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:12:12 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:12:12 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:12:15 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:12:15 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:12:15 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đã thôi học sang Đã thôi học
+2025-02-25 16:12:31 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:12:31 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:12:31 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đã tốt nghiệp sang Đã tốt nghiệp
+2025-02-25 16:12:45 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:12:45 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:12:45 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:12:45 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:12:45 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:12:45 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:12:48 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:12:48 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:12:48 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:12:48 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:12:50 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:12:50 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:12:50 [ERROR]: ERROR: Trạng thái chuyển đổi không hợp lệ từ Đã thôi học sang Đã thôi học
+2025-02-25 16:13:49 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:13:49 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:13:49 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:13:49 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:13:49 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:13:49 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:13:50 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:13:50 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:13:50 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:13:50 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:13:50 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:13:50 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:13:55 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:13:55 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:13:55 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:13:55 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:13:55 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:13:55 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:13:58 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:13:58 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:13:58 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:13:58 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:14:00 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:14:00 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:14:00 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:14:00 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 16:14:00 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 16:14:01 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:14:01 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:14:01 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:14:01 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:14:01 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:14:01 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:15:35 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:15:35 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:15:35 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:15:35 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:15:35 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:15:35 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:15:45 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:15:45 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:15:45 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:15:45 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:15:45 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:15:45 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:22:05 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:22:05 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:22:05 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:22:05 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:22:05 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:22:05 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:22:11 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:22:11 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:22:11 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:22:11 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:23:12 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:23:12 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:23:12 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:23:12 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:23:12 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:23:12 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:23:14 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:23:14 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:23:14 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:23:14 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:25:59 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:25:59 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:25:59 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:25:59 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:25:59 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:25:59 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:26:02 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:26:02 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:26:02 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:26:02 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:26:02 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:26:02 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:26:11 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:26:11 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:26:11 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:26:11 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:26:17 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:26:17 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:26:17 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:26:17 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 16:26:17 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 16:26:18 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:26:18 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:26:18 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:26:18 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:26:18 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:26:18 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:26:22 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:26:22 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:26:22 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:26:22 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:27:05 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:27:05 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:27:05 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:27:05 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 16:27:05 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 16:27:06 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:27:06 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:27:06 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:27:06 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:27:06 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:27:06 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:27:08 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:27:08 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:27:08 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:27:08 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:28:02 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:28:02 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:28:02 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:28:02 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:28:02 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:28:02 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:28:09 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:28:09 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:28:09 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:28:09 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:32:13 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:32:13 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:32:13 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:32:13 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:32:13 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:32:13 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:32:16 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:32:16 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:32:16 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:32:16 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:32:36 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:32:36 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:32:36 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:32:36 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:32:36 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:32:36 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:32:39 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:32:39 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:32:39 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:32:39 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:32:47 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:32:47 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:32:47 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:32:47 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:32:47 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:32:47 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:32:48 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:32:48 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:32:48 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:32:48 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:32:48 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:32:48 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:32:50 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:32:50 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:32:50 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:32:50 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:34:26 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:34:26 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:34:26 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:34:26 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:34:26 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:34:26 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:34:54 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:34:54 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:34:54 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:34:54 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:35:54 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:35:54 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:35:54 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:35:54 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:35:54 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:35:54 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:35:56 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:35:56 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:35:56 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:35:56 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:39:01 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:39:01 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:39:01 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:39:01 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:39:01 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:39:01 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:39:06 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:39:06 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:39:06 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:39:06 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:39:12 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:39:12 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:39:12 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:39:12 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 16:39:12 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 16:39:14 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:39:14 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:39:14 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:39:14 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:39:14 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:39:14 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:39:16 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:39:16 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:39:16 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:39:16 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:43:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:43:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:43:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:43:23 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:43:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:43:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:43:29 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:43:29 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:43:29 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:43:29 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:44:28 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:44:28 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:44:28 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:44:28 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:44:28 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:44:28 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:44:32 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:44:32 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:44:32 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:44:32 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:44:35 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:44:35 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:44:35 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:44:35 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 16:44:35 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 16:44:36 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:44:36 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:44:36 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:44:36 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:44:36 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:44:36 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:44:38 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:44:38 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:44:38 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:44:38 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:44:42 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 16:44:42 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 16:44:42 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:44:42 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 16:44:42 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 16:44:44 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:44:44 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:44:44 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:44:44 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:44:44 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:44:44 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:49:50 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:49:50 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:49:50 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:49:50 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:49:50 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:49:50 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:49:54 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:49:54 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:49:54 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:49:54 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:49:54 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:49:54 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:49:59 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:49:59 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:49:59 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:49:59 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:49:59 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:49:59 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:50:02 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:50:02 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:50:02 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:50:02 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:50:57 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:50:57 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:50:57 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:50:57 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:50:57 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:50:57 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:51:00 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:51:00 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:51:00 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:51:00 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:52:28 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:52:28 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:52:28 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:52:28 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:52:28 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:52:28 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:52:32 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:52:32 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:52:32 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:52:32 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:52:42 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:52:42 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:52:42 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:52:42 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:52:42 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:52:42 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:52:44 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:52:44 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:52:44 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:52:44 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 16:59:22 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 16:59:22 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 16:59:22 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 16:59:22 [INFO]: GET /api/options/takeOptions
+2025-02-25 16:59:22 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 16:59:22 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 16:59:31 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 16:59:31 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 16:59:31 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 16:59:31 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:00:08 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:00:08 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:00:08 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:00:08 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:00:08 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:00:08 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:00:11 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:00:11 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:00:11 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:00:11 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:00:21 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 17:00:21 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 17:00:21 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:00:21 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 17:00:21 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 17:00:21 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:00:21 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:00:21 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:00:21 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:00:21 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:00:21 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:00:27 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:00:27 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:00:27 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:00:27 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:07:41 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:07:41 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:07:41 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:07:41 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:07:41 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:07:41 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:07:45 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:07:45 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:07:45 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:07:45 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:07:45 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:07:45 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:07:49 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:07:49 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:07:49 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:07:49 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:07:52 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 17:07:52 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 17:07:52 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:07:52 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 17:07:52 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 17:07:52 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:07:52 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:07:52 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:07:52 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:07:52 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:07:52 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:07:55 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:07:55 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:07:55 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:07:55 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:08:01 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 17:08:01 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 17:08:01 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:08:01 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 17:08:01 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 17:08:01 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:08:01 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:08:01 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:08:01 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:08:01 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:08:01 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:08:17 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:08:17 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:08:17 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:08:17 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:08:17 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:08:17 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:09:00 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:09:00 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:09:00 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:09:00 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:09:00 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:09:00 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:57:16 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:57:16 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:57:16 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:57:16 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:58:59 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:58:59 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:58:59 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:58:59 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:58:59 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:58:59 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:59:01 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:59:01 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:59:01 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:59:01 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:59:04 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 17:59:04 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 17:59:04 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:59:04 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 17:59:04 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 17:59:05 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:59:05 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:59:05 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:59:05 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:59:05 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:59:05 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:59:08 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:59:08 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:59:08 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:59:08 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 17:59:11 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 17:59:11 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 17:59:11 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:59:11 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 4 sinh viên.
+2025-02-25 17:59:11 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127408
+2025-02-25 17:59:12 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 17:59:12 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 17:59:12 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 17:59:12 [INFO]: GET /api/options/takeOptions
+2025-02-25 17:59:12 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 17:59:12 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 17:59:14 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 17:59:14 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 17:59:14 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 17:59:14 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:06:31 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:06:31 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:06:31 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:06:32 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:06:32 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:06:32 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:06:37 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:06:37 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:06:37 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:06:37 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:06:37 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:06:37 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:06:43 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:06:43 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:06:43 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:06:43 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:06:43 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:06:43 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:08:20 [INFO]: POST /api/students/addStudent
+2025-02-25 19:08:20 [INFO]: ADD_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 19:08:20 [ERROR]: ERROR: Thông tin sinh viên không hợp lệ.
+2025-02-25 19:10:25 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:10:25 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:10:25 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:10:25 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:10:25 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:10:25 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:11:00 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:11:00 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:11:00 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:11:00 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:11:00 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:11:00 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:11:01 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:11:01 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:11:01 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:11:01 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:11:01 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:11:01 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:11:43 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 19:11:43 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 19:11:43 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 19:11:43 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:12:33 [INFO]: POST /api/students/addStudent
+2025-02-25 19:12:33 [INFO]: ADD_STUDENT_ATTEMPT: MSSV: 22127407
+2025-02-25 19:12:33 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 4 sinh viên.
+2025-02-25 19:12:33 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 5 sinh viên.
+2025-02-25 19:12:33 [INFO]: ADD_STUDENT_SUCCESS: MSSV: 22127407
+2025-02-25 19:12:55 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:12:55 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:12:55 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:12:55 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:12:55 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:12:55 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:14:19 [INFO]: POST /api/students/addStudent
+2025-02-25 19:14:19 [INFO]: ADD_STUDENT_ATTEMPT: MSSV: 20127427
+2025-02-25 19:14:19 [ERROR]: ERROR: Email không hợp lệ: fitu398@gmail.com
+2025-02-25 19:15:48 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:15:48 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:15:48 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:15:48 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:15:48 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:15:48 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:15:48 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:15:48 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:15:48 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:15:48 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:15:48 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:15:48 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:16:00 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 19:16:00 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 19:16:00 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:16:00 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:16:16 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 19:16:16 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 19:16:16 [ERROR]: ERROR: Email không hợp lệ: khavinhthuan114@student.hcmus.edu.vn
+2025-02-25 19:17:35 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:17:35 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:17:35 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:17:35 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:17:35 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:17:35 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:18:39 [INFO]: POST /api/students/addStudent
+2025-02-25 19:18:39 [INFO]: ADD_STUDENT_ATTEMPT: MSSV: 21269735
+2025-02-25 19:18:39 [ERROR]: ERROR: Số điện thoại không hợp lệ: 0456978965
+2025-02-25 19:20:11 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:20:11 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:20:11 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:20:11 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:20:11 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:20:11 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:20:11 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:20:11 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:20:11 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:20:11 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:20:11 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:20:11 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:22:22 [INFO]: GET /api/students/searchStudent?query=22127408
+2025-02-25 19:22:22 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127408
+2025-02-25 19:22:22 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:22:22 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:22:44 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 19:22:44 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 19:22:44 [ERROR]: ERROR: Số điện thoại không hợp lệ: 0498756898
+2025-02-25 19:23:01 [INFO]: PUT /api/students/updateStudent/22127408
+2025-02-25 19:23:01 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127408
+2025-02-25 19:23:01 [ERROR]: ERROR: Số điện thoại không hợp lệ: 0498756898
+2025-02-25 19:24:16 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:24:16 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:24:16 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:24:16 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:24:16 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:24:16 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:26:21 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 19:26:21 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 19:26:21 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:26:21 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:28:09 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:28:09 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:28:09 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:28:09 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:28:09 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:28:09 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:28:16 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 19:28:16 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 19:28:16 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:28:16 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:28:21 [INFO]: PUT /api/students/updateStudent/22127151
+2025-02-25 19:28:21 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127151
+2025-02-25 19:28:21 [ERROR]: ERROR: Email không hợp lệ: fitus17458@gmail.com
+2025-02-25 19:28:31 [INFO]: PUT /api/students/updateStudent/22127151
+2025-02-25 19:28:31 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127151
+2025-02-25 19:28:31 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:28:31 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 5 sinh viên.
+2025-02-25 19:28:31 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127151
+2025-02-25 19:28:32 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:28:32 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:28:32 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:28:32 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:28:32 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:28:32 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:28:37 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 19:28:37 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 19:28:37 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:28:37 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:29:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:29:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:29:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:29:23 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:29:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:29:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:29:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:29:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:29:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:29:23 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:29:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:29:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:29:34 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 19:29:34 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 19:29:34 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:29:34 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:29:36 [INFO]: PUT /api/students/updateStudent/22127151
+2025-02-25 19:29:36 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127151
+2025-02-25 19:29:36 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:29:36 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 5 sinh viên.
+2025-02-25 19:29:36 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127151
+2025-02-25 19:29:37 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:29:37 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:29:37 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:29:37 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:29:37 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:29:37 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:29:43 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 19:29:43 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 19:29:43 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:29:43 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:29:47 [INFO]: PUT /api/students/updateStudent/22127151
+2025-02-25 19:29:47 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127151
+2025-02-25 19:29:47 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:29:47 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 5 sinh viên.
+2025-02-25 19:29:47 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127151
+2025-02-25 19:29:48 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:29:48 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:29:48 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:29:48 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:29:48 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:29:48 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:29:54 [INFO]: GET /api/students/searchStudent?query=22127151
+2025-02-25 19:29:54 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127151
+2025-02-25 19:29:54 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:29:54 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:30:25 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:30:25 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:30:25 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:30:25 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:30:25 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:30:25 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:30:26 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:30:26 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:30:26 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:30:26 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:30:26 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:30:26 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:30:33 [INFO]: GET /api/students/searchStudent?query=22127407
+2025-02-25 19:30:33 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127407
+2025-02-25 19:30:33 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:30:33 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:30:48 [INFO]: PUT /api/students/updateStudent/22127407
+2025-02-25 19:30:48 [INFO]: UPDATE_STUDENT_ATTEMPT: MSSV: 22127407
+2025-02-25 19:30:48 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:30:48 [INFO]: WRITE_STUDENTS_SUCCESS: Đã lưu 5 sinh viên.
+2025-02-25 19:30:48 [INFO]: UPDATE_STUDENT_SUCCESS: MSSV: 22127407
+2025-02-25 19:30:49 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:30:49 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:30:49 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:30:49 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:30:49 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:30:49 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:30:53 [INFO]: GET /api/students/searchStudent?query=22127407
+2025-02-25 19:30:53 [INFO]: SEARCH_STUDENT_ATTEMPT: Query: 22127407
+2025-02-25 19:30:53 [INFO]: READ_STUDENTS_SUCCESS: Đọc thành công 5 sinh viên.
+2025-02-25 19:30:53 [INFO]: SEARCH_STUDENT_RESULT: Tìm thấy 1 sinh viên.
+2025-02-25 19:31:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:31:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:31:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:31:23 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:31:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:31:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:31:23 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:31:23 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:31:23 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:31:23 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:31:23 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:31:23 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:34:51 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:34:51 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:34:51 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:34:51 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:34:51 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:34:51 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.
+2025-02-25 19:36:17 [INFO]: REQUEST_RECEIVED: GET /api/app-info
+2025-02-25 19:36:17 [INFO]: GET_APP_INFO_ATTEMPT: Đang lấy thông tin ứng dụng.
+2025-02-25 19:36:17 [INFO]: GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.
+2025-02-25 19:36:17 [INFO]: GET /api/options/takeOptions
+2025-02-25 19:36:17 [INFO]: GET_OPTIONS_ATTEMPT: Đang đọc dữ liệu từ file.
+2025-02-25 19:36:17 [INFO]: GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.

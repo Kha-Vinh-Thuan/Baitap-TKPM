@@ -8,9 +8,9 @@
     "class": "2022",
     "program": "Cử nhân",
     "address": "Thành phố Hồ Chí Minh",
-    "email": "khavinhthuan114@gmail.com",
+    "email": "khavinhthuan114@clc.fitus.edu.vn",
     "phone": "0978541469",
-    "status": "Đang học"
+    "status": "Đã tốt nghiệp"
   },
   {
     "mssv": "22127151",
@@ -21,9 +21,9 @@
     "class": "2021",
     "program": "Kỹ sư",
     "address": "Phú Yên",
-    "email": "fitus17458@gmail.com",
+    "email": "fitus17458@clc.fitus.edu.vn",
     "phone": "0978452968",
-    "status": "Đang học"
+    "status": "Đã thôi học"
   },
   {
     "mssv": "21127651",
@@ -50,5 +50,18 @@
     "email": "FFfitus17458@gmail.com",
     "phone": "0457526984",
     "status": "Đang học"
+  },
+  {
+    "mssv": "22127407",
+    "name": "Ngô Văn C",
+    "dob": "2005-02-04",
+    "gender": "Nam",
+    "faculty": "Khoa Luật",
+    "class": "2023",
+    "program": "Kỹ sư",
+    "address": "Bình Dương",
+    "email": "fitus17458@clc.fitus.edu.vn",
+    "phone": "0966854575",
+    "status": "Đã tốt nghiệp"
   }
 ]

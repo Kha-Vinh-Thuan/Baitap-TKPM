@@ -89,3 +89,7 @@ You need to download both the front-end and back-end folders. The project direct
 
 *Frontend*
 Similar version 1.0
+
+# Version 3.0
+Set up similar version 2.0
+Version 3 only updates business rules for IDStudent, phone number, email, status.

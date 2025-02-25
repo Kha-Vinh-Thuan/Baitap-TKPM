@@ -286,8 +286,8 @@ fetchOptions();
       alert('Vui lòng nhập tên tình trạng cũ và tên tình trạng mới');
     }
   });
-
-  // Cập nhật sinh viên
+  
+  //Cập nhật sinh viên
   document.getElementById('fetchStudent').addEventListener('click', function() {
     const mssv = document.getElementById('updateMssv').value;
 
@@ -305,7 +305,30 @@ fetchOptions();
           document.getElementById('updateAddress').value = student.address;
           document.getElementById('updateEmail').value = student.email;
           document.getElementById('updatePhone').value = student.phone;
-          document.getElementById('updateStatus').value = student.status;
+
+          // Xử lý dropdown trạng thái
+          const statusDropdown = document.getElementById('updateStatus');
+          statusDropdown.innerHTML = '';
+
+          const validStatuses = ["Đang học", "Đã thôi học", "Đã tốt nghiệp", "Tạm dừng học"];
+          let currentStatus = student.status;
+
+          statusDropdown.value = currentStatus;
+
+          // Tạo danh sách option phù hợp
+          const allowedStatuses = {
+              "Đang học": ["Đang học", "Đã thôi học", "Đã tốt nghiệp", "Tạm dừng học"],
+              "Tạm dừng học": ["Tạm dừng học", "Đang học"],
+              "Đã thôi học": ["Đã thôi học"],
+              "Đã tốt nghiệp": ["Đã tốt nghiệp"]
+          };
+
+          allowedStatuses[currentStatus].forEach(status => {
+              const option = document.createElement("option");
+              option.value = status;
+              option.textContent = status;
+              statusDropdown.appendChild(option);
+          });
 
           document.getElementById('updateStudentForm').style.display = 'block';
         } else {
@@ -313,9 +336,9 @@ fetchOptions();
         }
       })
       .catch(error => console.log(error));
-  });
+});
 
-  document.getElementById('updateStudentForm').addEventListener('submit', function(event) {
+document.getElementById('updateStudentForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const updatedStudent = {
@@ -343,8 +366,7 @@ fetchOptions();
     .then(response => response.json())
     .then(data => alert(data.message))
     .catch(error => console.log(error));
-  });
-
+});
   // Xóa sinh viên
   document.getElementById('deleteForm').addEventListener('submit', function(event) {
     event.preventDefault();

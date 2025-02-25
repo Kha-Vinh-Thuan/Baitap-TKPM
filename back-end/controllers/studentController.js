@@ -8,16 +8,34 @@ const logger = require('../config/logger');
 function addStudent(req, res) {
   const student = req.body;
   logger.info(`ADD_STUDENT_ATTEMPT: MSSV: ${student.mssv}`);
-  
+
   if (!validateStudent(student)) {
     logger.error('ERROR: Thông tin sinh viên không hợp lệ.');
     return res.status(400).json({ message: 'Thông tin sinh viên không hợp lệ.' });
+  }
+
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@clc\.fitus\.edu\.vn$/;
+  if (!emailRegex.test(student.email)) {
+    logger.error(`ERROR: Email không hợp lệ: ${student.email}`);
+    return res.status(400).json({ message: 'Email phải thuộc tên miền @clc.fitus.edu.vn.' });
+  }
+
+  const phoneRegex = /^(0[3|5|7|8|9][0-9]{8}|(\+84)[3|5|7|8|9][0-9]{8})$/;
+  if (!phoneRegex.test(student.phone)) {
+    logger.error(`ERROR: Số điện thoại không hợp lệ: ${student.phone}`);
+    return res.status(400).json({ message: 'Số điện thoại phải có định dạng hợp lệ theo quốc gia (Việt Nam).' });
   }
 
   studentModel.readStudents((err, students) => {
     if (err) {
       logger.error('ERROR: Không thể đọc dữ liệu sinh viên.');
       return res.status(500).json({ message: 'Không thể đọc dữ liệu sinh viên.' });
+    }
+
+    const existingStudent = students.find(s => s.mssv === student.mssv);
+    if (existingStudent) {
+      logger.error(`ERROR: MSSV ${student.mssv} đã tồn tại.`);
+      return res.status(400).json({ message: `MSSV ${student.mssv} đã tồn tại.` });
     }
 
     students.push(student);
@@ -64,6 +82,18 @@ function updateStudent(req, res) {
   const updatedStudent = req.body;
   logger.info(`UPDATE_STUDENT_ATTEMPT: MSSV: ${mssv}`);
 
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@clc\.fitus\.edu\.vn$/;
+  if (updatedStudent.email && !emailRegex.test(updatedStudent.email)) {
+    logger.error(`ERROR: Email không hợp lệ: ${updatedStudent.email}`);
+    return res.status(400).json({ message: 'Email phải thuộc tên miền @clc.fitus.edu.vn.' });
+  }
+
+  const phoneRegex = /^(0[3|5|7|8|9][0-9]{8}|(\+84)[3|5|7|8|9][0-9]{8})$/;
+  if (updatedStudent.phone && !phoneRegex.test(updatedStudent.phone)) {
+    logger.error(`ERROR: Số điện thoại không hợp lệ: ${updatedStudent.phone}`);
+    return res.status(400).json({ message: 'Số điện thoại phải có định dạng hợp lệ theo quốc gia (Việt Nam).' });
+  }
+
   studentModel.readStudents((err, students) => {
     if (err) {
       logger.error('ERROR: Không thể đọc dữ liệu sinh viên.');
@@ -87,6 +117,8 @@ function updateStudent(req, res) {
     });
   });
 }
+
+
 
 function searchStudent(req, res) {
   const query = req.query.query;
