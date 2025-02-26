@@ -93,3 +93,15 @@ Similar version 1.0
 # Version 3.0
 Set up similar version 2.0
 Version 3 only updates business rules for IDStudent, phone number, email, status.
+
+# Version 3.0.1
+- In version 3.0.1, there will be more unit tests. To be able to run unit tests, you need to download the tests folder to the same level as folders such as controller, routes, models and download additional packages such as chai, mocha, sinon.
+- Move to the back-end with the command: 
+  + *cd back-end*
+- Then download the necessary packages for version 3.0.1: 
+  + *npm i chai mocha sinon*
+- In this version will test the 3 most important functions addStudent, searchStudent and updateStudent
+- Check those 3 functions with 3 corresponding commands:
+  + *npm mocha tests/searchStudent.test.js*
+  + *npm mocha tests/addStudent.test.js*
+  + *npm mocha tests/updateStudent.test.js*

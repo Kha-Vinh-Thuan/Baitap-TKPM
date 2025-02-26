@@ -134,6 +134,7 @@ function searchStudent(req, res) {
       student.mssv.includes(query)
     );
     logger.info(`SEARCH_STUDENT_RESULT: Tìm thấy ${result.length} sinh viên.`);
+    console.log(result)
     res.json(result);
   });
 }
