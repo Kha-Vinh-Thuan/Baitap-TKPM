@@ -105,3 +105,6 @@ Version 3 only updates business rules for IDStudent, phone number, email, status
   + *npm mocha tests/searchStudent.test.js*
   + *npm mocha tests/addStudent.test.js*
   + *npm mocha tests/updateStudent.test.js*
+
+# Version 4.0
+- No need to install any additional packages
