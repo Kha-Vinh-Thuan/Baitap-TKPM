@@ -5,21 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quản lý Sinh Viên</title>
   <link rel="stylesheet" href="index.css">
-  <style>
-    /* Style cho phần hiển thị thông tin phiên bản và ngày build */
-    #appInfo {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: white;
-      padding: 5px 10px;
-      font-size: 14px;
-      border-radius: 5px;
-    }
-  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 </head>
 <body>
+  <img id="logo" src="logo.png" alt="Logo">
+
   <div id="appInfo">
     <span id="version">Version: </span> | <span id="buildDate">Build Date: </span>
   </div>
@@ -180,6 +170,37 @@
       </select>  
         <input type="text" id="newStatusName" placeholder="Nhập tên tình trạng mới">
         <button id="renameStatusBtn">Đổi tên tình trạng</button>
+
+        <h1>Giấy Xác Nhận Tình Trạng Sinh Viên</h1>
+        <div class="container">
+          <input type="text" id="mssv1" placeholder="Nhập MSSV" />
+          <button onclick="generateHTML()">Xuất HTML</button>
+          <button onclick="generateMarkdown()">Xuất MD</button>
+        </div>
+
+        <h2>Xóa Khoa</h2>
+        <form id="deleteFacultyForm">
+          <select id="deleteFacultySelect" required>
+            <option value="">Chọn Khoa</option>
+          </select>
+          <button type="submit">Xóa Khoa</button>
+        </form>
+        
+        <h2>Xóa Tình trạng</h2>
+        <form id="deleteStatusForm">
+          <select id="deleteStatusSelect" required>
+            <option value="">Chọn Tình trạng</option>
+          </select>
+          <button type="submit">Xóa Tình trạng</button>
+        </form>
+        
+        <h2>Xóa Chương trình đào tạo</h2>
+        <form id="deleteProgramForm">
+          <select id="deleteProgramSelect" required>
+            <option value="">Chọn Chương trình</option>
+          </select>
+          <button type="submit">Xóa Chương trình</button>
+        </form>
 
   <script src="index.js"></script>
 </body>

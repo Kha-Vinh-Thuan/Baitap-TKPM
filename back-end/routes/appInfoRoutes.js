@@ -20,6 +20,7 @@ router.get('/', logRequest, (req, res) => {
   };
 
   logger.info('GET_APP_INFO_SUCCESS: Thông tin ứng dụng đã được trả về.');
+  console.log(appInfo);
   res.json(appInfo);
 });
 

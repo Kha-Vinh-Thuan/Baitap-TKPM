@@ -7,6 +7,7 @@ const getOptions = (req, res) => {
   fs.readFile(path, 'utf8', (err, data) => {
   if (err) {
     logger.error('ERROR: Không thể đọc dữ liệu.');
+    console.log(err);
     return res.status(500).json({ message: 'Không thể đọc dữ liệu' });
   }
   logger.info('GET_OPTIONS_SUCCESS: Đọc dữ liệu thành công.');
@@ -200,4 +201,3 @@ module.exports = {
   renameProgram,
   renameStatus
 };
-

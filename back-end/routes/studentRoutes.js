@@ -20,7 +20,9 @@ router.put('/updateStudent/:mssv', logRequest, studentController.updateStudent);
 router.get('/searchStudent', logRequest, studentController.searchStudent);
 router.get('/searchStudentbyFaculty', logRequest, studentController.searchStudentbyFaculty);
 router.get('/advanceSearch', logRequest, studentController.advanceSearch);
-
+router.delete('/deleteFaculty/:faculty', logRequest, studentController.deleteFaculty);
+router.delete('/deleteStatus/:status', logRequest, studentController.deleteStatus);
+router.delete('/deleteProgram/:program', logRequest, studentController.deleteProgram);
 // Export dữ liệu sinh viên
 router.get('/export/csv', logRequest, studentController.exportCSV);
 router.get('/export/json', logRequest, studentController.exportJSON);
